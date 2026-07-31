@@ -1,0 +1,34 @@
+{
+  "app": "M2_GIT_DIFF",
+  "version": "0.3.7",
+  "tag": "m2-git-diff-v0.3.7",
+  "publishedAt": "2026-07-31T18:58:36Z",
+  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-git-diff-v0.3.7",
+  "notes": "M2_GIT_DIFF v0.3.7",
+  "assets": [
+    {
+      "name": "M2_GIT_DIFF-0.3.7-Setup-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-git-diff-v0.3.7/M2_GIT_DIFF-0.3.7-Setup-arm64.exe",
+      "size": 106039727,
+      "sha256": "a8d532770668dfcf96ee438181e82dc98d392cbd6e686378fc45c9b3c7bebdc1"
+    },
+    {
+      "name": "M2_GIT_DIFF-0.3.7-Setup-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-git-diff-v0.3.7/M2_GIT_DIFF-0.3.7-Setup-x64.exe",
+      "size": 106143979,
+      "sha256": "4b94504148c105d608a3707c5ca256f8e2a68980ace96d30fc3bc707a4eadffd"
+    },
+    {
+      "name": "M2_GIT_DIFF-0.3.7-win-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-git-diff-v0.3.7/M2_GIT_DIFF-0.3.7-win-arm64.exe",
+      "size": 105804303,
+      "sha256": "ea43a14a8d6d2a91aea97e36f64dda3a9b78e6766ded98e69dc74ad6dee18e67"
+    },
+    {
+      "name": "M2_GIT_DIFF-0.3.7-win-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-git-diff-v0.3.7/M2_GIT_DIFF-0.3.7-win-x64.exe",
+      "size": 105908140,
+      "sha256": "a71989da45b52fb11ee27a58f9c54780f0ea1366855edd3891a290129685504a"
+    }
+  ]
+}
