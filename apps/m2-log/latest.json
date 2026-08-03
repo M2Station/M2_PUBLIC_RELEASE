@@ -1,34 +1,34 @@
 {
   "app": "M2_LOG",
-  "version": "0.2.6",
-  "tag": "m2-log-v0.2.6",
-  "publishedAt": "2026-07-31T21:35:41Z",
-  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-log-v0.2.6",
-  "notes": "M2_LOG v0.2.6",
+  "version": "0.2.9",
+  "tag": "m2-log-v0.2.9",
+  "publishedAt": "2026-08-03T10:44:01Z",
+  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-log-v0.2.9",
+  "notes": "M2_LOG v0.2.9",
   "assets": [
     {
-      "name": "M2_LOG-0.2.6-Setup-arm64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-log-v0.2.6/M2_LOG-0.2.6-Setup-arm64.exe",
-      "size": 98291827,
-      "sha256": "68f23c7e2c04eae3f3bd4cf993f5d585fda1afe673db388b54e1f0babc0fda71"
+      "name": "M2_LOG-0.2.9-Setup-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-log-v0.2.9/M2_LOG-0.2.9-Setup-arm64.exe",
+      "size": 98291431,
+      "sha256": "680cfd1694352a23c3fe5c33ddceda68efa37aa3ad2b90be12ce8b21b213dbfd"
     },
     {
-      "name": "M2_LOG-0.2.6-Setup-x64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-log-v0.2.6/M2_LOG-0.2.6-Setup-x64.exe",
-      "size": 104320383,
-      "sha256": "4d632f8769d54679cf3384582688537399adc8fb15712a64cb42e457b38403d9"
+      "name": "M2_LOG-0.2.9-Setup-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-log-v0.2.9/M2_LOG-0.2.9-Setup-x64.exe",
+      "size": 104316268,
+      "sha256": "acf57eb81fdd2dd22c64ad806666dc28cab6892aa865c40dadc4c7a7f9a636b8"
     },
     {
-      "name": "M2_LOG-0.2.6-win-arm64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-log-v0.2.6/M2_LOG-0.2.6-win-arm64.exe",
-      "size": 94433533,
-      "sha256": "8ae1557b571662ed4d0b505bb814416eaefec773613c605b0aff783d8efbe86c"
+      "name": "M2_LOG-0.2.9-win-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-log-v0.2.9/M2_LOG-0.2.9-win-arm64.exe",
+      "size": 94434276,
+      "sha256": "5c2c59f735016e21b44f9e21978f9a712e0b35699f8d9128a0dcc690f0923927"
     },
     {
-      "name": "M2_LOG-0.2.6-win-x64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-log-v0.2.6/M2_LOG-0.2.6-win-x64.exe",
-      "size": 93728940,
-      "sha256": "7e632fac43b59ca822dbcecefa74e16daafc77645efcf02a4cfe7737c18e2417"
+      "name": "M2_LOG-0.2.9-win-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-log-v0.2.9/M2_LOG-0.2.9-win-x64.exe",
+      "size": 93729977,
+      "sha256": "f528ca06080001d2aeeafaf027f119efcc751fa18218c7fafb2ae79f92c47b70"
     }
   ]
 }
