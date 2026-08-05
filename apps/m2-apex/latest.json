@@ -1,34 +1,34 @@
 {
   "app": "M2_APEX",
-  "version": "0.3.1",
-  "tag": "m2-apex-v0.3.1",
-  "publishedAt": "2026-08-01T15:42:50Z",
-  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-apex-v0.3.1",
-  "notes": "M2_APEX v0.3.1",
+  "version": "0.3.2",
+  "tag": "m2-apex-v0.3.2",
+  "publishedAt": "2026-08-05T08:13:48Z",
+  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-apex-v0.3.2",
+  "notes": "M2_APEX v0.3.2",
   "assets": [
     {
-      "name": "M2_APEX-0.3.1-Setup-arm64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-apex-v0.3.1/M2_APEX-0.3.1-Setup-arm64.exe",
-      "size": 68198551,
-      "sha256": "93b1637c5211408caeed33243683bce31555f00e4bf3236185aacd6fddc94012"
+      "name": "M2_APEX-0.3.2-Setup-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-apex-v0.3.2/M2_APEX-0.3.2-Setup-arm64.exe",
+      "size": 68212596,
+      "sha256": "989deb2f322d2e792cc8e1437b2c26341f34815cbd4334181cd2a4ee17cc684d"
     },
     {
-      "name": "M2_APEX-0.3.1-Setup-x64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-apex-v0.3.1/M2_APEX-0.3.1-Setup-x64.exe",
-      "size": 72666991,
-      "sha256": "f41fa4f12d9b4eec667981a547d63cc2ec2a1587e6f2c4fcf84f4ba5d573e4d3"
+      "name": "M2_APEX-0.3.2-Setup-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-apex-v0.3.2/M2_APEX-0.3.2-Setup-x64.exe",
+      "size": 72674317,
+      "sha256": "838f1126fe9c006a3344af59ca8c520398bc1f99a10a3e4e69123014bed356d3"
     },
     {
-      "name": "M2_APEX-0.3.1-win-arm64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-apex-v0.3.1/M2_APEX-0.3.1-win-arm64.exe",
-      "size": 74143513,
-      "sha256": "0163bb89bd64a6a823c26ac0b4a0e037da808e4ad960dbbf3e6762cf4a545b15"
+      "name": "M2_APEX-0.3.2-win-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-apex-v0.3.2/M2_APEX-0.3.2-win-arm64.exe",
+      "size": 74152699,
+      "sha256": "16f98d19e97f49edc579d00bdb09520039f5aa7f0a68e4c6c8d8618ec22c071e"
     },
     {
-      "name": "M2_APEX-0.3.1-win-x64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-apex-v0.3.1/M2_APEX-0.3.1-win-x64.exe",
-      "size": 77862535,
-      "sha256": "be067f6f989061c701df7ec4ccdd9a0dfd47ff6e7ee948f5ca7e50e318d2433f"
+      "name": "M2_APEX-0.3.2-win-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-apex-v0.3.2/M2_APEX-0.3.2-win-x64.exe",
+      "size": 77872798,
+      "sha256": "c5f94252261b8ba518a6e620af0f76dd16eeaa6e188c3a63713cb7e5f862138f"
     }
   ]
 }
