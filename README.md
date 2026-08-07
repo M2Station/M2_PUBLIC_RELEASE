@@ -6,4 +6,4 @@
 
 https://t.me/M2_NEWS
 
-<img src="./README/image-20260807094517900.png" alt="image-20260807094517900" style="zoom: 25%;" />
+![image-20260807112807283](./README/image-20260807112807283.png)
