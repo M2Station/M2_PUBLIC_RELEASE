@@ -1,0 +1,148 @@
+# Sends a short Telegram announcement to the M2_NEWS channel whenever a
+# release is published in this repository.
+#
+# Required repository secret:
+#   TELEGRAM_BOT_TOKEN  - BotFather token for the announcing bot.
+# Optional repository variable:
+#   TELEGRAM_CHAT_ID    - target chat/channel id (defaults to the M2_NEWS channel).
+#
+# The bot must be added to the channel as an administrator with "Post Messages"
+# permission, otherwise Telegram replies 403 "bot is not a member of the channel".
+name: Telegram Release Notification
+
+on:
+  release:
+    types: [published]
+  # Manual re-send / smoke test for an existing tag.
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing release tag to announce (e.g. m2-prompt-v0.2.0)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-release-${{ github.event.release.tag_name || github.event.inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    name: Announce release on Telegram
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Build message
+        id: msg
+        env:
+          TAG: ${{ github.event.release.tag_name || github.event.inputs.tag }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+          SERVER_URL: ${{ github.server_url }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${TAG}" ]; then
+            echo "::error::No release tag resolved from the event payload."
+            exit 1
+          fi
+
+          # workflow_dispatch has no release payload - rebuild the canonical URL.
+          URL="${RELEASE_URL}"
+          if [ -z "${URL}" ]; then
+            URL="${SERVER_URL}/${REPOSITORY}/releases/tag/${TAG}"
+          fi
+
+          # "m2-prompt-v0.2.0" -> APP="m2-prompt", VERSION="v0.2.0"
+          VERSION="$(printf '%s' "${TAG}" | grep -oE 'v?[0-9]+\.[0-9]+\.[0-9]+.*$' || true)"
+          if [ -z "${VERSION}" ]; then
+            VERSION="${TAG}"
+            APP=""
+          else
+            APP="${TAG%"-${VERSION}"}"
+            [ "${APP}" = "${TAG}" ] && APP=""
+          fi
+
+          if [ -n "${APP}" ]; then
+            LABEL="$(printf '%s' "${APP}" | tr '[:lower:]' '[:upper:]' | tr '-' '_') ${VERSION}"
+          else
+            LABEL="${VERSION}"
+          fi
+
+          MESSAGE="$(printf '%s\n%s\n%s' \
+            "🚀 New Release! ${LABEL} is available." \
+            "Link: ${URL}" \
+            "Check it out now! 👇")"
+
+          # Keep it inside one mobile screen; drop the CTA line if we overflow.
+          if [ "$(printf '%s' "${MESSAGE}" | wc -m)" -gt 200 ]; then
+            MESSAGE="$(printf '%s\n%s' "🚀 New Release! ${LABEL}" "${URL}")"
+          fi
+
+          echo "chars=$(printf '%s' "${MESSAGE}" | wc -m)" >> "$GITHUB_OUTPUT"
+          {
+            echo "text<<TELEGRAM_EOF"
+            printf '%s\n' "${MESSAGE}"
+            echo "TELEGRAM_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Send to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID || '-1004322645972' }}
+          MESSAGE: ${{ steps.msg.outputs.text }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${TELEGRAM_BOT_TOKEN}" ]; then
+            echo "::error::Secret TELEGRAM_BOT_TOKEN is not configured for this repository."
+            exit 1
+          fi
+
+          send() {
+            curl --silent --show-error --location \
+                 --max-time 20 \
+                 --output response.json \
+                 --write-out '%{http_code}' \
+                 --request POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+                 --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+                 --data-urlencode "text=${MESSAGE}" \
+                 --data-urlencode "disable_web_page_preview=true"
+          }
+
+          for attempt in 1 2 3; do
+            code="$(send || echo 000)"
+
+            if [ "${code}" = "200" ] && [ "$(jq -r '.ok' response.json)" = "true" ]; then
+              echo "Telegram message delivered (attempt ${attempt})."
+              {
+                echo "### Telegram release notification"
+                echo ""
+                echo "- Status: delivered"
+                echo "- Length: ${{ steps.msg.outputs.chars }} chars"
+              } >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+
+            # Telegram never echoes the token back; GitHub masks the secret anyway.
+            echo "::warning::Attempt ${attempt} failed (HTTP ${code}): $(jq -rc '.description // "no response body"' response.json 2>/dev/null || echo 'unparseable response')"
+
+            # 4xx other than 429 will not fix themselves - fail fast.
+            case "${code}" in
+              400|401|403|404) break ;;
+            esac
+
+            [ "${attempt}" -lt 3 ] && sleep $((attempt * 10))
+          done
+
+          echo "::error::Failed to deliver the Telegram release notification for this release."
+          {
+            echo "### Telegram release notification"
+            echo ""
+            echo "- Status: FAILED after 3 attempts"
+            echo "- Last HTTP code: ${code}"
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1
