@@ -1,34 +1,34 @@
 {
   "app": "M2_PROMPT",
-  "version": "0.4.1",
-  "tag": "m2-prompt-v0.4.1",
-  "publishedAt": "2026-08-17T11:14:23Z",
-  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-prompt-v0.4.1",
-  "notes": "M2_PROMPT v0.4.1",
+  "version": "0.4.2",
+  "tag": "m2-prompt-v0.4.2",
+  "publishedAt": "2026-08-25T01:54:34Z",
+  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-prompt-v0.4.2",
+  "notes": "M2_PROMPT v0.4.2",
   "assets": [
     {
-      "name": "M2_PROMPT-0.4.1-Setup-arm64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-prompt-v0.4.1/M2_PROMPT-0.4.1-Setup-arm64.exe",
-      "size": 97076257,
-      "sha256": "6df3534e07b1018bb16a72bc1bb60e9cae3e4c3d874238c1b53ce8675a988f12"
+      "name": "M2_PROMPT-0.4.2-Setup-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-prompt-v0.4.2/M2_PROMPT-0.4.2-Setup-arm64.exe",
+      "size": 97080793,
+      "sha256": "0e466270d48cda4a36759e4a00eaa3af6d14c34096d2fc5a6aded17c525d1847"
     },
     {
-      "name": "M2_PROMPT-0.4.1-Setup-x64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-prompt-v0.4.1/M2_PROMPT-0.4.1-Setup-x64.exe",
-      "size": 103068104,
-      "sha256": "c1604dad7120a8de994bee222d2140463728ba40c73af2ddb5a46462aaf53bb7"
+      "name": "M2_PROMPT-0.4.2-Setup-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-prompt-v0.4.2/M2_PROMPT-0.4.2-Setup-x64.exe",
+      "size": 103070095,
+      "sha256": "d9a196be7a8eac35f827795e8df0449fc115488ccba6af17284daabf74242857"
     },
     {
-      "name": "M2_PROMPT-0.4.1-win-arm64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-prompt-v0.4.1/M2_PROMPT-0.4.1-win-arm64.exe",
-      "size": 93245803,
-      "sha256": "81d34434e5053548acab115d0c7e052d03863e54f7daaa9121532d3be8837ac9"
+      "name": "M2_PROMPT-0.4.2-win-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-prompt-v0.4.2/M2_PROMPT-0.4.2-win-arm64.exe",
+      "size": 93248548,
+      "sha256": "c9d6086a239ae17e79ccc19c9ff1254de2a5f61ff98108b3d0d997731137f02b"
     },
     {
-      "name": "M2_PROMPT-0.4.1-win-x64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-prompt-v0.4.1/M2_PROMPT-0.4.1-win-x64.exe",
-      "size": 92512867,
-      "sha256": "d7c0e99d2f846465de69ecbad8741f36a635f826a413da3d6e9fbdf40960009e"
+      "name": "M2_PROMPT-0.4.2-win-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-prompt-v0.4.2/M2_PROMPT-0.4.2-win-x64.exe",
+      "size": 92514596,
+      "sha256": "4bf87952a8a0581556b72163bd651e1d4310e725c885bd63f1c039d4034f292b"
     }
   ]
 }
