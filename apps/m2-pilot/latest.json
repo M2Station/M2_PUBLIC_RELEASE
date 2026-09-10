@@ -1,34 +1,34 @@
 {
   "app": "M2_PILOT",
-  "version": "0.1.8",
-  "tag": "m2-pilot-v0.1.8",
-  "publishedAt": "2026-09-10T08:38:09Z",
-  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-pilot-v0.1.8",
-  "notes": "M2_PILOT v0.1.8",
+  "version": "0.1.9",
+  "tag": "m2-pilot-v0.1.9",
+  "publishedAt": "2026-09-10T10:14:36Z",
+  "releaseUrl": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-pilot-v0.1.9",
+  "notes": "M2_PILOT v0.1.9",
   "assets": [
     {
-      "name": "M2_PILOT-0.1.8-Setup-x64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-pilot-v0.1.8/M2_PILOT-0.1.8-Setup-x64.exe",
-      "size": 117304378,
-      "sha256": "e59a514c839126cde698fb96ede14cef75501648e2a705ab9bab5cabd9713653"
+      "name": "M2_PILOT-0.1.9-Setup-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-pilot-v0.1.9/M2_PILOT-0.1.9-Setup-x64.exe",
+      "size": 117337580,
+      "sha256": "f6af86004ef927fd0c74c3053f118460acba07fbf87ca83e7a60c515ddb71a4a"
     },
     {
-      "name": "M2_PILOT-0.1.8-Setup-arm64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-pilot-v0.1.8/M2_PILOT-0.1.8-Setup-arm64.exe",
-      "size": 118089503,
-      "sha256": "07c9318408bbb6d38273f73f866c76c2cc870ad4dd6204254bf765bba4dda2cc"
+      "name": "M2_PILOT-0.1.9-Setup-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-pilot-v0.1.9/M2_PILOT-0.1.9-Setup-arm64.exe",
+      "size": 118122817,
+      "sha256": "967672c73c0890ad77b0a68cc91d8567d61ce33d9627c25ad3eb9d3685c745b9"
     },
     {
-      "name": "M2_DUT_AGENT-0.1.8-win-x64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-pilot-v0.1.8/M2_DUT_AGENT-0.1.8-win-x64.exe",
+      "name": "M2_DUT_AGENT-0.1.9-win-x64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-pilot-v0.1.9/M2_DUT_AGENT-0.1.9-win-x64.exe",
       "size": 141589165,
-      "sha256": "88bd5ae13a597d365e1ab4c09ee913922e6047bf38fa64c7ee953c64462017f0"
+      "sha256": "c7ee161939f43b5b339fff9c1ef61a29e46d890851f2dd7fdd7089bc7f5af9d9"
     },
     {
-      "name": "M2_DUT_AGENT-0.1.8-win-arm64.exe",
-      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-pilot-v0.1.8/M2_DUT_AGENT-0.1.8-win-arm64.exe",
+      "name": "M2_DUT_AGENT-0.1.9-win-arm64.exe",
+      "url": "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-pilot-v0.1.9/M2_DUT_AGENT-0.1.9-win-arm64.exe",
       "size": 156957381,
-      "sha256": "e0b96838a75ccf999534085c4468c28026bcb516e008ea38c8db80845b0fac76"
+      "sha256": "cb34b13bc4ba9903c652d036cfdca89419761db8ee201adc254bad4063051542"
     }
   ]
 }
