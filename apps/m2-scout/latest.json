@@ -1,34 +1,34 @@
 {
     "app":  "M2_SCOUT",
-    "version":  "0.1.3",
-    "tag":  "m2-scout-v0.1.3",
-    "publishedAt":  "2026-09-18T09:46:27Z",
-    "releaseUrl":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-scout-v0.1.3",
-    "notes":  "M2_SCOUT v0.1.3",
+    "version":  "0.1.4",
+    "tag":  "m2-scout-v0.1.4",
+    "publishedAt":  "2026-09-18T11:25:16Z",
+    "releaseUrl":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-scout-v0.1.4",
+    "notes":  "M2_SCOUT v0.1.4",
     "assets":  [
                    {
-                       "name":  "M2_SCOUT-0.1.3-Setup-arm64.exe",
-                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-scout-v0.1.3/M2_SCOUT-0.1.3-Setup-arm64.exe",
-                       "size":  102770238,
-                       "sha256":  "be31850527bddc37c804b069bc3915a9e1e5beeca6ba6f8ff9d5b7f7ca27db4b"
+                       "name":  "M2_SCOUT-0.1.4-Setup-arm64.exe",
+                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-scout-v0.1.4/M2_SCOUT-0.1.4-Setup-arm64.exe",
+                       "size":  104065570,
+                       "sha256":  "9f481423835e41fe1152d5eb1e52c17128e7c344f5e72f8d79c3203f5b08072b"
                    },
                    {
-                       "name":  "M2_SCOUT-0.1.3-Setup-x64.exe",
-                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-scout-v0.1.3/M2_SCOUT-0.1.3-Setup-x64.exe",
-                       "size":  105537031,
-                       "sha256":  "035a056076c73863e377baf47a44d0f0929267430e5327e1685111f0f38c42bd"
+                       "name":  "M2_SCOUT-0.1.4-Setup-x64.exe",
+                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-scout-v0.1.4/M2_SCOUT-0.1.4-Setup-x64.exe",
+                       "size":  106786566,
+                       "sha256":  "9be6a7c782bfaeacd6a12ecd3874a4cb2e416619903d5ed11480a277bdb3abf4"
                    },
                    {
-                       "name":  "M2_SCOUT-0.1.3-win-arm64.exe",
-                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-scout-v0.1.3/M2_SCOUT-0.1.3-win-arm64.exe",
-                       "size":  87837814,
-                       "sha256":  "f367950afb550d3154856e3442efb4929c2f2331de24f9db30f3743b8374df50"
+                       "name":  "M2_SCOUT-0.1.4-win-arm64.exe",
+                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-scout-v0.1.4/M2_SCOUT-0.1.4-win-arm64.exe",
+                       "size":  89128736,
+                       "sha256":  "1ce9fe5886ce4cc42d18ae1e39096a5bb88dfd033418ae0f8cc6cdfef022dd21"
                    },
                    {
-                       "name":  "M2_SCOUT-0.1.3-win-x64.exe",
-                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-scout-v0.1.3/M2_SCOUT-0.1.3-win-x64.exe",
-                       "size":  91971604,
-                       "sha256":  "52addc8ec51e942d8a152e1aeeec89af46d4d9fc218e0bc5439e4289986785a8"
+                       "name":  "M2_SCOUT-0.1.4-win-x64.exe",
+                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-scout-v0.1.4/M2_SCOUT-0.1.4-win-x64.exe",
+                       "size":  93216217,
+                       "sha256":  "05da52228220b93e8f66b0263a9a20d8f99c0fa5df9af728404b3dc3cddda9b5"
                    }
                ]
 }
