@@ -1,16 +1,16 @@
 {
     "app":  "M2_AI_PROXY",
-    "version":  "0.4.28",
-    "tag":  "m2-ai-proxy-v0.4.28",
-    "publishedAt":  "2026-10-08T14:03:42Z",
-    "releaseUrl":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-ai-proxy-v0.4.28",
-    "notes":  "M2_AI_PROXY v0.4.28",
+    "version":  "0.4.29",
+    "tag":  "m2-ai-proxy-v0.4.29",
+    "publishedAt":  "2026-10-08T14:21:34Z",
+    "releaseUrl":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-ai-proxy-v0.4.29",
+    "notes":  "M2_AI_PROXY v0.4.29",
     "assets":  [
                    {
-                       "name":  "M2_AI_PROXY-v0.4.28-portable-x64.zip",
-                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-ai-proxy-v0.4.28/M2_AI_PROXY-v0.4.28-portable-x64.zip",
-                       "size":  197487931,
-                       "sha256":  "abc1151efad4ed77944482ab8994b772801b13edc62ea6fecf90a58be6222a5e"
+                       "name":  "M2_AI_PROXY-v0.4.29-portable-x64.zip",
+                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-ai-proxy-v0.4.29/M2_AI_PROXY-v0.4.29-portable-x64.zip",
+                       "size":  197487758,
+                       "sha256":  "6129da5b7fc8939b80b27f2ef5291c8306998aa006c894d226826043e636ceee"
                    }
                ]
 }
