@@ -1,16 +1,16 @@
 {
     "app":  "M2_ECHO",
-    "version":  "0.1.1",
-    "tag":  "m2-echo-v0.1.1",
-    "publishedAt":  "2026-11-26T08:06:13Z",
-    "releaseUrl":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-echo-v0.1.1",
-    "notes":  "M2 ECHO v0.1.1",
+    "version":  "0.1.2",
+    "tag":  "m2-echo-v0.1.2",
+    "publishedAt":  "2026-11-26T08:14:43Z",
+    "releaseUrl":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/tag/m2-echo-v0.1.2",
+    "notes":  "M2 ECHO v0.1.2",
     "assets":  [
                    {
-                       "name":  "M2_ECHO-v0.1.1-portable-x64.zip",
-                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-echo-v0.1.1/M2_ECHO-v0.1.1-portable-x64.zip",
-                       "size":  12469635,
-                       "sha256":  "1418f3938debb0215f948dd68a977af175fb054b16c85292544ee2c2847ebdb9"
+                       "name":  "M2_ECHO-v0.1.2-portable-x64.zip",
+                       "url":  "https://github.com/M2Station/M2_PUBLIC_RELEASE/releases/download/m2-echo-v0.1.2/M2_ECHO-v0.1.2-portable-x64.zip",
+                       "size":  12469632,
+                       "sha256":  "57b8d9016a7f66063fe9f6f8e259f7eee90fc862b431a674eb54828a1216db51"
                    }
                ]
 }
